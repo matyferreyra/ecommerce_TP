@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/main.css"> <!-- Linkeado externo a pagina de estilos CSS-->
+    <title>PAUSA - CONTACTO</title> <!-- Esto sirve para nombra la pestaña del navegador-->
+    <link rel="icon" href="../assets/img/pausa_favicon_small.png">
+</head>
+
+<body>
+    <!-----------------------------------------         ENCABEZADO           ---------------------------------------->
+    <header class="header_style_default">
+        <div class="logo_container">
+            <a href="./../index.html"><img src="../assets/img/Logo Tiendita Pausa 400px SVG.svg" alt="Logo Pausa"></a>
+        </div>
+
+        <div class="brand_container">
+            <p id="pausa">
+                Pausa
+            </p>
+            <p id="tiendita">
+                Tiendita de Cosas
+            </p>
+        </div>
+
+        <div class="margenDerecho">
+            <ul>
+                <li><a href="#"><img src="../assets/img/icon_user_48px_f4c3b4.png" alt="cuenta"
+                            id="imgCuenta img-fluid"></a></li>
+                <li><a href="#"><img src="../assets/img/icon_cart_32px_f4c3b4.png" alt="usuario"
+                            id="sizecart img-fluid"></a></li>
+            </ul>
+        </div>
+
+    </header>
+
+    <main>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light h4 color nav_prop style_main_menu">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" id="navbarDropdown activo" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                PRODUCTOS
+                            </a>
+                            <ul class="dropdown-menu style_submenu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="./mates.html">MATES</a></li>
+                                <li><a class="dropdown-item" href="./hilos.html">HILOS</a></li>
+                                <li><a class="dropdown-item" href="./ceramica.html">CERAMICA</a></li>
+                                <li><a class="dropdown-item" href="./cosmetica_natural.html">COSMETICA NATURAL</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./nosotros.html">NOSOTROS</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+
+        <!----------------------------         MAIN           ---------------------------->
+        <br>
+        <br>    
+        <br>
+        <br>        
+        <div class="style_card_container">
+            <section>
+                <p class="text_title_contact">CONTACTO</p>
+                <P class="text_contact">Deje su mensaje. A la brevedad nos estaremos comunicando.</P>
+            </section>
+            <br>
+            <br>
+            <br>            
+            <div>
+                <form action="" method="post"></form>
+            </div>
+            <div>
+                <label for="Nombre" class="style_label">NOMBRE Y APELLIDO:</label>
+                <br>
+                <input type="text" class="style_input" required>
+            </div>
+            <br>
+            <div class="style_center">
+                <label for="email" class="style_label">CORREO ELECTRÓNICO:</label>
+                <br>
+                <input type="mail" class="style_input" required>
+            </div>
+            <br>
+            <div>
+                <textarea name="mensaje" class="style_textarea" cols="43" rows="12" placeholder="mensaje" required></textarea>
+            </div>
+            <br>
+            <div>
+                <input type="submit"  class="button_submit" value="Enviar mensaje">
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+
+        <!-----------------------------------------    SOCIAL BAR DENTRO DEL MAIN   ---------------------------------------->
+        <aside class="social_bar">
+            <a href="https://www.instagram.com/tienditapausa/?hl=es-la" class="icon_instagram img-fluid"
+                target="_blank"><img src="./../assets/img/instagram_small.png" alt="instagram"></a>
+        </aside>
+
+    </main>
+    <!-----------------------------------------           PIE DE PÁGINA           ---------------------------------------->
+    <footer class=pie>
+        <div>
+            <div style="margin-top: 1.5%; margin-bottom: 1.5%;">
+                <ul>
+                    <li><a href="./../pages/privacidad.html">Política de Privacidad</a></li>
+                    <li><a href="./../pages/tyc.html">Términos y Condiciones</a></li>
+                </ul>
+            </div>
+        </div>
+        <a href="#">Contacto</a>
+    </footer>
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

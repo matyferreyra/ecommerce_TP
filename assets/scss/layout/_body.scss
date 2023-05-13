@@ -1,0 +1,21 @@
+html {
+    height: 100%;
+    font-size: 62.5%;
+}
+
+body {
+    min-height: 100%;
+    background-image: url("../../../assets/img/manchas.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black;
+    padding: 0 !important;
+    /*hasta aca le dimos cuestiones de forma a la imagen que se usa de fondo en la pagina*/
+}
+
+.body_style {
+    font-family: "Public Sans", sans-serif;
+    min-height: 100%;
+}

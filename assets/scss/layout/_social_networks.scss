@@ -1,0 +1,35 @@
+.social_bar {
+    position: fixed;
+    left: $position_left_xs;
+    top: $position_top_xs;
+}
+
+/* --------------------------------           MEDIA QUERIES    ----------------------------------*/
+
+@media (min-width:400px) and (max-width:600px) {
+    .social_bar {
+        left: $position_left_s;
+        top: $position_top_s;
+    }
+}
+
+@media (min-width:601px) and (max-width:799px) {
+    .social_bar {
+        left: $position_left_m;
+        top: $position_top_m;
+    }
+}
+
+@media (min-width:800px) and (max-width:1023px) {
+    .social_bar {
+        left: $position_left_l;
+        top: $position_top_l;
+    }
+}
+
+@media (min-width:1024px) {
+    .social_bar {
+        left: $position_left_xl;
+        top: $position_top_xl;
+    }
+}

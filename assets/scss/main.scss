@@ -1,0 +1,21 @@
+@import "utilities/variables";
+
+@import 'base/reset';
+@import 'base/fonts';
+@import 'base/images';
+@import 'base/effects';
+
+@import 'layout/header';
+@import 'layout/navigation';
+@import 'layout/body';
+@import 'layout/flexbox';
+@import 'layout/grid';
+@import 'layout/social_networks';
+@import 'layout/footer';
+
+@import 'components/buttons';
+
+@import "views/home";
+@import "views/nosotros";
+@import "views/productos";
+@import "views/contacto";
