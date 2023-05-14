@@ -1,4 +1,4 @@
-const stock_Cosmetica = {
+const stock_Cosmetica = [
     {
         id:4001,
         nombre:"Shampoo Pelo Mixto",
@@ -79,6 +79,6 @@ const stock_Cosmetica = {
         img:
         cantidad:1        
     }
-}
+]
 
-export { stock_Cosmetica };
+export { stock_Cosmetica }; //Al exportarlo podemos usar nuestro array en cualquier otra hoja del proyecto

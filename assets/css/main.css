@@ -973,6 +973,15 @@ ul#distance_buttons {
   color: #756c65;
   cursor: pointer; }
 
+
+/*------ MODAL ORDEN DE COMPRA ---------*/
+
+  .modal_Active {
+    opacity: 1;
+    visibility: visible;
+    z-index: 5;
+  }
+
 /* --------------------------------           MEDIA QUERIES            ----------------------------------*/
 @media (min-width: 400px) and (max-width: 600px) {
   .amount_items {
@@ -1071,7 +1080,7 @@ ul#distance_buttons {
   font-weight: bolder;
   text-decoration: none; }
 
-.productContainer .productCat img {
+/* .productContainer .productCat img { */
   /*esto lo hago para que el campo de la descripción del texto se ajuste automaticamente al mismo tamaño que la imagen padre*/
   /* width: 20%; */ }
 

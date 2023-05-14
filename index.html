@@ -32,7 +32,7 @@
                     <li><a href="#"><img src="../assets/img/icon_user_48px_f4c3b4.png" alt="cuenta"
                                 id="imgCuenta img-fluid"></a></li>
                     <li><a href="#"><img src="../assets/img/icon_cart_32px_f4c3b4.png" alt="usuario"
-                                id="sizecart img-fluid"></a></li>
+                                id="sizecart img-fluid openCart"></a></li>
                 </ul>
             </div>
     </header>
@@ -132,7 +132,22 @@
                 target="_blank"><img src="./../assets/img/instagram_small.png" alt="instagram"></a>
         </aside>
 
+        <div class="modal_Container" id="modal_Container">
+            <div class="modal_Carrito">
+                <p> Orden de Compra </p>
+                <button id="closecart">Cerrar</button>
+                <div id="carrito_Container">
+            </div>
+        </div>
+
     </main>
+
+    <script src="stock.js" type="module"></script>  <!-- El "script" junto con el "type module" me permiten interacturar entre las distintas hojas del proyecto entre el html y el JS por medio de los import/export -->
+    <script src="productos.js" type="module"></script>
+    <script src="carrito.js" type="module"></script>
+    <script src="modal.js" type="module"></script>
+
+
     <!-----------------------------------------           PIE DE PÁGINA           ---------------------------------------->
     <footer class="pie">
         <div>
