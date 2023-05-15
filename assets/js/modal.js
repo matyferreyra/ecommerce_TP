@@ -1,4 +1,4 @@
-const modalContenedor = document.querySelector (`.modal_Container`); //Tengo que crear un estilo CSS con ese nombre
+const modalContenedor = document.querySelector (`modal_Container`); //Tengo que crear un estilo CSS con ese nombre
 
 const abrirCarrito = document.getElementById(`openCart`); //Hago referencia al Id del carrito en la página index.html Con eso se dispara el evento para abrir el modal
 

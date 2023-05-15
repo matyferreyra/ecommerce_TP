@@ -5,7 +5,7 @@ const stock_Cosmetica = [
         desc:"",
         precio: 800,
         img: ""
-        cantidad:1 
+        cantidad: 20; 
     }
     {
         id:4002,
@@ -13,7 +13,7 @@ const stock_Cosmetica = [
         desc:"",
         precio: 800,
         img:
-        cantidad:1 
+        cantidad: 20; 
     }
     {
         id:4003,
@@ -21,7 +21,7 @@ const stock_Cosmetica = [
         desc:"",
         precio: 800,
         img:
-        cantidad:1 
+        cantidad: 20;
     }
     {
         id:4004,
@@ -29,7 +29,7 @@ const stock_Cosmetica = [
         desc:"",
         precio: 800,
         img:
-        cantidad:1 
+        cantidad: 20;
     }
     {
         id:4005,
@@ -37,7 +37,7 @@ const stock_Cosmetica = [
         desc:"",
         precio: 800,
         img:
-        cantidad:1 
+        cantidad: 20; 
     }
     {
         id:4006,
@@ -45,7 +45,7 @@ const stock_Cosmetica = [
         desc:"",
         precio: 800,
         img:
-        cantidad:1 
+        cantidad: 20;
     }
     {
         id:4007,
@@ -53,7 +53,7 @@ const stock_Cosmetica = [
         desc:"",
         precio: 800,
         img:
-        cantidad:1 
+        cantidad: 20; 
     }
     {
         id:4008,
@@ -61,7 +61,7 @@ const stock_Cosmetica = [
         desc:"",
         precio: 800,
         img:
-        cantidad:1 
+        cantidad: 20; 
     }
     {
         id:4009,
@@ -69,7 +69,7 @@ const stock_Cosmetica = [
         desc:"",
         precio: 900,
         img:
-        cantidad:1 
+        cantidad: 20;
     }
     {
         id:4010,
@@ -77,8 +77,12 @@ const stock_Cosmetica = [
         desc:"",
         precio: 900,
         img:
-        cantidad:1        
+        cantidad: 20;        
     }
 ]
 
+const carritoFinal = [] //este array es donde se van a ir cargando todos los productos que el usuario vaya eligiendo para su compra.
+
 export { stock_Cosmetica }; //Al exportarlo podemos usar nuestro array en cualquier otra hoja del proyecto
+
+export { carritoFinal };

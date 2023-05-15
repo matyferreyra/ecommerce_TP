@@ -979,7 +979,19 @@ ul#distance_buttons {
   .modal_Active {
     opacity: 1;
     visibility: visible;
-    z-index: 5;
+    z-index: 5;    
+    margin: auto;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    backdrop-filter: blur(5px) saturate(181%);
+    -webkit-backdrop-filter: blur(5px) saturate(181%);
+    background-color: rgba(103, 85, 109, 0.45);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    padding: 4em 0;
   }
 
 /* --------------------------------           MEDIA QUERIES            ----------------------------------*/
